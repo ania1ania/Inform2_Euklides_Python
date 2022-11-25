@@ -8,15 +8,15 @@ def nwd(a, b):
 
 
 def ile(goscie, gospodarze):
-    # zdefiniuj funkcję i sprawdź jej działanie
-    pass
+    pom = nwd(goscie, gospodarze)
+    return goscie // pom + gospodarze // pom
 
 print("")
 print("Wyniki testów:")
 print(" Test           | Oczekiwano | Otrzymano | Wynik")
 print("----------------+------------+-----------+-----------")
-print(" ile(100, 100)  | 2          | ", ile(100, 100),"      |")
+print(" ile(100, 100)  | 2          | ", ile(100, 100),"       |")
 print("----------------+------------+-----------+-----------")
-print(" ile(51, 65)    | 116        | ", ile(51, 65),"       |")
+print(" ile(51, 65)    | 116        | ", ile(51, 65),"     |")
 print("----------------+------------+-----------+-----------")
 print(" ile(32, 48)    | 5          | ", ile(32, 48),"       |")
