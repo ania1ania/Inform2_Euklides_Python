@@ -2,8 +2,13 @@
 import CheckIt
 
 def sumap(lista):
-    # zdefiniuj funkcję i sprawdź jej działanie
-    pass
+    sum = 0
+    for x in lista:
+        if x == 0:
+            break
+        if (x % 2) == 0:
+            sum += x
+    return sum
 
 print("")
 print("Wyniki testów:")
