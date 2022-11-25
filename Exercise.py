@@ -1,19 +1,16 @@
 
 import CheckIt
 
-def suma_cyfr(liczba):
-    suma = 0
-    while liczba > 0:
-        suma += liczba % 10
-        liczba //= 10
-    return suma
+def iledo6(lista):
+    # zdefiniuj funkcję i sprawdź jej działanie
+    pass
 
 print("")
 print("Wyniki testów:")
-print(" Test                  | Oczekiwano | Otrzymano | Wynik")
-print("-----------------------+------------+-----------+-----------")
-print(" suma_cyfr(12)         | 3          | ", suma_cyfr(12),"       |", CheckIt.checkIt(3, suma_cyfr(12)))
-print("-----------------------+------------+-----------+-----------")
-print(" suma_cyfr(179233334)  | 35         | ", suma_cyfr(179233334),"      |", CheckIt.checkIt(35, suma_cyfr(179233334)))
-print("-----------------------+------------+-----------+-----------")
-print(" suma_cyfr(1)          | 1          | ", suma_cyfr(1),"       |", CheckIt.checkIt(1, suma_cyfr(1)))
+print(" Test                                 | Oczekiwano | Otrzymano | Wynik")
+print("--------------------------------------+------------+-----------+-----------")
+print(" iledo6([6])                          | 0          | ", iledo6([6]),"       |", CheckIt.checkIt(0, iledo6([6])))
+print("--------------------------------------+------------+-----------+-----------")
+print(" iledo6([1, 1, 1, 1, 5, 6, 6, 6, 6])  | 5          | ", iledo6([1, 1, 1, 1, 5, 6, 6, 6, 6]),"       |", CheckIt.checkIt(5, iledo6([1, 1, 1, 1, 5, 6, 6, 6, 6])))
+print("--------------------------------------+------------+-----------+-----------")
+print(" iledo6([0, 0, 0, 0, 6])              | 4          | ", iledo6([0, 0, 0, 0, 6]),"       |", CheckIt.checkIt(4, iledo6([0, 0, 0, 0, 6])))
