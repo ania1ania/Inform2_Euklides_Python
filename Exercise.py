@@ -7,16 +7,16 @@ def nwd(a, b):
     return a
 
 
-def ile(goscie, gospodarze):
-    pom = nwd(goscie, gospodarze)
-    return goscie // pom + gospodarze // pom
+def kiedy(x, y):
+    # zdefiniuj funkcję i sprawdź jej działanie
+    pass
 
 print("")
 print("Wyniki testów:")
 print(" Test           | Oczekiwano | Otrzymano | Wynik")
 print("----------------+------------+-----------+-----------")
-print(" ile(100, 100)  | 2          | ", ile(100, 100),"       |")
+print(" kiedy(2, 5)    | 10         | ", kiedy(2, 5),"       |")
 print("----------------+------------+-----------+-----------")
-print(" ile(51, 65)    | 116        | ", ile(51, 65),"     |")
+print(" kiedy(3, 3)    | 3          | ", kiedy(3, 3),"        |")
 print("----------------+------------+-----------+-----------")
-print(" ile(32, 48)    | 5          | ", ile(32, 48),"       |")
+print(" kiedy(4, 7)    | 28         | ", kiedy(4, 7),"       |")
