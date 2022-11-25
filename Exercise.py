@@ -15,16 +15,16 @@ def nwd(a, b):
 def nww(a, b):
     return (a * b) // nwd(a, b)
 
-def kiedy(x, y):
-    return nww(x, y)
+def flamastry(x, y, z):
+    # zdefiniuj funkcję i sprawdź jej działanie
+    pass
 
 print("")
 print("Wyniki testów:")
-print(" Test           | Oczekiwano | Otrzymano | Wynik")
-print("----------------+------------+-----------+-----------")
-print(" kiedy(2, 5)    | 10         | ", kiedy(2, 5),"      |", checkIt(10, kiedy(2, 5)))
-print("----------------+------------+-----------+-----------")
-print(" kiedy(3, 3)    | 3          | ", kiedy(3, 3),"       |", checkIt(3, kiedy(3, 3)))
-print("----------------+------------+-----------+-----------")
-print(" kiedy(4, 7)    | 28         | ", kiedy(4, 7),"      |", checkIt(28, kiedy(4, 7)))
-
+print(" Test                  | Oczekiwano | Otrzymano | Wynik")
+print("-----------------------+------------+-----------+-----------")
+print(" flamastry(5, 110, 15) | 22         | ", flamastry(5, 110, 15),"      |", checkIt(22, flamastry(5, 110, 15)))
+print("-----------------------+------------+-----------+-----------")
+print(" flamastry(5, 10, 15)  | 2          | ", flamastry(5, 10, 15),"       |", checkIt(2, flamastry(5, 10, 15)))
+print("-----------------------+------------+-----------+-----------")
+print(" flamastry(7, 9, 7)    | 9          | ", flamastry(7, 9, 7),"       |", checkIt(9, flamastry(7, 9, 7)))
