@@ -2,8 +2,11 @@
 import CheckIt
 
 def suma_cyfr(liczba):
-    # zdefiniuj funkcję i sprawdź jej działanie
-    pass
+    suma = 0
+    while liczba > 0:
+        suma += liczba % 10
+        liczba //= 10
+    return suma
 
 print("")
 print("Wyniki testów:")
