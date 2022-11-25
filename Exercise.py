@@ -7,15 +7,16 @@ def nwd(a, b):
     return a
 
 
-def rzad(goscie, gospodarze):
-	return nwd(goscie, gospodarze)
+def ile(goscie, gospodarze):
+    # zdefiniuj funkcję i sprawdź jej działanie
+    pass
 
 print("")
 print("Wyniki testów:")
 print(" Test           | Oczekiwano | Otrzymano | Wynik")
 print("----------------+------------+-----------+-----------")
-print(" rzad(100, 100) | 100        | ", rzad(100, 100),"     |")
+print(" ile(100, 100)  | 2          | ", ile(100, 100),"      |")
 print("----------------+------------+-----------+-----------")
-print(" rzad(51, 65)   | 1          | ", rzad(51, 65),"       |")
+print(" ile(51, 65)    | 116        | ", ile(51, 65),"       |")
 print("----------------+------------+-----------+-----------")
-print(" rzad(32, 48)   | 16         | ", rzad(32, 48),"      |")
+print(" ile(32, 48)    | 5          | ", ile(32, 48),"       |")
